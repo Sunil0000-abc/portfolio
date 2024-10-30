@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+ 
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="logo"><span id="head-s">L</span>ogo</div>
+        <div class="option">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#boxes">Slill</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            +91 987654321
+            <div class="icn"><i class="fa-solid fa-phone"></i></div>
+        </div>
+        <div class="resp"><i class="fa-solid fa-bars"></i></div>
+    </div>
+    <div class="hero">
+        <div class="image"></div>
+        <div class="txt">
+            <div class="fist">Hello</div>
+            <div class="sec">I am <span class="big">Unknown</span></div>
+        </div>
+        
+    </div>
+    
+</div>  
+<div id="boxes">
+    <div class="card1">
+        <div class="icns"><i class="fa-solid fa-code"></i></div>
+        <div class="abt">
+            <h3> Web Devloper</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicfugiat atque earum qui? Magnam quaerat et cum fugit?</p>
+        </div>
+    </div>
+    <div class="card1">
+        <div class="icns"><i class="fa-brands fa-creative-commons-share"></i></div>
+        <div class="abt">
+            <h3>UX/UI</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicfugiat atque earum qui? Magnam quaerat et cum fugit?</p>
+        </div>
+    </div>
+        <div class="card1">
+            <div class="icns"><i class="fa-brands fa-app-store"></i></div>
+            <div class="abt">
+                <h3>App Devloper</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicfugiat atque earum qui? Magnam quaerat et cum fugit?</p>
+            </div>
+    </div>
+</div>
+    <div id="about">
+        <div class="img"><img src="condidate.jpg" alt=""></div>
+        <div class="content">
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia provident fuga at expedita. Eos repellat obcaecati dolores ipsa et. Tenetur delectus laudantium libero itaque doloremque magnam sequi optio ipsa facilis!</p>
+            <div class="show">
+                <p class="title-links" onclick="hide('skill')">Skill</p>
+                <p class="title-links experience" onclick="hide('experience')">Experience</p>
+                <p class="title-links education" onclick="hide('education')">Education</p>
+            </div>
+            <div class="tab-content active-tab " id="skill">
+                <ul>
+                    <li><span class="tab-head">UX/UI</span><br>Designing Web Interfaces</li><br>
+                    <li><span class="tab-head">Web Devloper</span><br>Web devlpoement</li>
+                </ul>
+            </div>
+            <div class="tab-content act-tab2" id="experience">
+                <ul>
+                    <li><span class="tab-head">1890-1900</span><br>Ceo of Nvdia</li><br>
+                    <li><span class="tab-head">1900-current</span><br>founder of Blackrock</li>
+                </ul>
+            </div>
+            <div class="tab-content act-tab3" id="education">
+                <ul>
+                    <li><span class="tab-head">Bachlors</span><br>Regionla Degree college</li><br>
+                    <li><span class="tab-head">Master</span><br>Odisha University of Technology and Research</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="social-media">
+            <h1>Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>contact@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+91 987654321</p>
+            <div class="social-icns">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <button id="cv">Download CV</button>
+        </div>
+        <div class="personal">
+            <form action="" id="form" method="POST" name="submit-google">
+                <input type="text" placeholder="Fullname" name="name">
+                <input type="email" placeholder="@email" name="email">
+                 <textarea id="" placeholder="Say something" name="message"></textarea>
+                 <input type="submit" placeholder="Let submit" id="btn">
+                 <p id="success"></p>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright<i class="fa-regular fa-copyright"></i>Made by Unknown </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
